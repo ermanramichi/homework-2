@@ -64,12 +64,13 @@
 
     
                 // Replace these with your actual valid username and password pairs
-                var validUsers = ["user1", "user2"];
-                var validPasswords = ["pass1", "pass2"];
+                var validUsers = ["arian", "user2"];
+                var validPasswords = ["arian", "pass2"];
     
                 // Check if the entered credentials are valid
                 if (validUsers.includes(username) && validPasswords.includes(password)) {
                     alert("Authentication successful! Redirecting to the dashboard...");
+                    window.location.href="dashboard.html"
                     
                 } else {
                     warningElement.textContent="Invalid username or password! Try Again"

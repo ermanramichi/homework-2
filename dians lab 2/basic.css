@@ -115,6 +115,7 @@ input[type="search"]::placeholder{
 p{
     font-size: 40px;
     text-align: center;
+    display: flex;
     
 }
 .items{
@@ -123,13 +124,15 @@ p{
     margin-top: 100px;
 
 }
-.items ul{
+#items{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    /*justify-content: left;*/
+    /*flex-wrap: wrap;*/
 
 }
-.items ul li{
+#items li{
     min-width:100px;
     min-height: 200px;
     background-color: white;
@@ -138,6 +141,15 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
     padding: 50px;
+    margin: 20px;
+
+}
+
+
+#map{
+    margin:0 auto;
+    width: 70%;
+    height: 500px;
+
 }

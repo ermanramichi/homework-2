@@ -130,3 +130,7 @@ input[type="search"]{
 input[type="search"]::placeholder{
   color: gray
 }
+#map{
+  width: 100%;
+  height: 500px;
+}
