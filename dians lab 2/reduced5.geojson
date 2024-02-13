@@ -1,5 +1,11 @@
+{
+
+"type":"FeatureCollection",
+"features":
 [
+
   {
+
     "type": "Feature",
     "id": "node/172348137",
     "properties": {
@@ -481,3 +487,4 @@
     }
   }
 ]
+}

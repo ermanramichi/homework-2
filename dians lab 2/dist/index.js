@@ -34,7 +34,7 @@ const port = 3000;
 app.use((0, cors_1.default)());
 (async () => {
     await (0, db_1.dbConnect)();
-    await (0, db_1.saveData)();
+    //await saveData();
 })();
 app.get('/data', async (req, res) => {
     try {
